@@ -52,7 +52,12 @@ export default function Navbar() {
     >
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
         <Link href="/#home">
-          <Image src="/public/assets/skills/nextjs.png" alt="/" width={50} />
+          <Image
+            src="/public/assets/skills/nextjs.png"
+            alt="/"
+            width={50}
+            height={50}
+          />
         </Link>
         <div>
           <ul style={{ color: `${linkColor}` }} className="hidden md:flex">
@@ -100,6 +105,7 @@ export default function Navbar() {
                   src="/public/assets/skills/nextjs.png"
                   alt="/"
                   width={50}
+                  height={50}
                 />
               </Link>
               <div
