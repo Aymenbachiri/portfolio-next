@@ -5,6 +5,7 @@ import Link from "next/link";
 import React, { useEffect, useState } from "react";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
+import logo from "../assets/skills/nextjs.png";
 
 export default function Navbar() {
   const [nav, setNav] = useState(false);
@@ -52,12 +53,7 @@ export default function Navbar() {
     >
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
         <Link href="/#home">
-          <Image
-            src="/public/assets/skills/nextjs.png"
-            alt="/"
-            width={50}
-            height={50}
-          />
+          <Image src={logo} alt="/" width={50} height={50} />
         </Link>
         <div>
           <ul style={{ color: `${linkColor}` }} className="hidden md:flex">
@@ -101,12 +97,7 @@ export default function Navbar() {
           <div>
             <div className="flex w-full items-center justify-between">
               <Link href="/#home">
-                <Image
-                  src="/public/assets/skills/nextjs.png"
-                  alt="/"
-                  width={50}
-                  height={50}
-                />
+                <Image src={logo} width={50} height={50} alt="logo" />
               </Link>
               <div
                 onClick={handleNav}

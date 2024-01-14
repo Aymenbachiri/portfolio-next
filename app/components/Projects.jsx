@@ -1,5 +1,5 @@
 import React from "react";
-import project from "/public/assets/skills/nextjs.png";
+import project from "../assets/skills/nextjs.png";
 import ProjectItem from "./ProjectItem";
 
 const Projects = () => {
