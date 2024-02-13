@@ -8,6 +8,10 @@ import tailwind from "../assets/skills/tailwind.png";
 import firebase from "../assets/skills/firebase.png";
 import github from "../assets/skills/github1.png";
 import next from "../assets/skills/nextjs.png";
+import git from "../assets/skills/git.png";
+import mongodb from "../assets/skills/mongodb.png";
+import redux from "../assets/skills/redux.png";
+import express from "../assets/skills/express-js.png";
 
 const Skills = () => {
   return (
@@ -91,10 +95,50 @@ const Skills = () => {
           <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
+                <Image src={git} width={64} height={64} alt="/" />
+              </div>
+              <div className="flex flex-col items-center justify-center">
+                <h3>Git</h3>
+              </div>
+            </div>
+          </div>
+          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+            <div className="grid grid-cols-2 gap-4 justify-center items-center">
+              <div className="m-auto">
                 <Image src={next} width={64} height={64} alt="/" />
               </div>
               <div className="flex flex-col items-center justify-center">
                 <h3>Next</h3>
+              </div>
+            </div>
+          </div>
+          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+            <div className="grid grid-cols-2 gap-4 justify-center items-center">
+              <div className="m-auto">
+                <Image src={mongodb} width={64} height={64} alt="/" />
+              </div>
+              <div className="flex flex-col items-center justify-center">
+                <h3>MongoDB</h3>
+              </div>
+            </div>
+          </div>
+          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+            <div className="grid grid-cols-2 gap-4 justify-center items-center">
+              <div className="m-auto">
+                <Image src={redux} width={64} height={64} alt="/" />
+              </div>
+              <div className="flex flex-col items-center justify-center">
+                <h3>Redux Toolkit</h3>
+              </div>
+            </div>
+          </div>
+          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+            <div className="grid grid-cols-2 gap-4 justify-center items-center">
+              <div className="m-auto">
+                <Image src={express} width={64} height={64} alt="/" />
+              </div>
+              <div className="flex flex-col items-center justify-center">
+                <h3>Node js</h3>
               </div>
             </div>
           </div>

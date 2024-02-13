@@ -41,7 +41,7 @@ const Contact = () => {
                 <p className="uppercase pt-8">Connect With Me</p>
                 <div className="flex items-center justify-between py-4">
                   <a
-                    href="https://www.linkedin.com/in/clint-briley-50056920a/"
+                    href="https://www.linkedin.com/in/aymen-bachiri-9442b5287/"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -50,7 +50,7 @@ const Contact = () => {
                     </div>
                   </a>
                   <a
-                    href="https://github.com/fireclint"
+                    href="https://github.com/Aymenbachiri?tab=repositories"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -58,15 +58,18 @@ const Contact = () => {
                       <FaGithub />
                     </div>
                   </a>
-
-                  <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                    <AiOutlineMail />
-                  </div>
-                  <Link href="/resume">
+                  <a
+                    href="https://drive.google.com/file/d/1uUcqiLd59J-sUwJhiQ8YWoAsNO2P2tlO/view"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                       <BsFillPersonLinesFill />
                     </div>
-                  </Link>
+                  </a>
+                  <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+                    <AiOutlineMail />
+                  </div>
                 </div>
               </div>
             </div>

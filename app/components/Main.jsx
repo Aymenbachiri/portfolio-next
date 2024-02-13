@@ -19,9 +19,9 @@ const Main = () => {
           <p className="py-4 text-gray-600 sm:max-w-[70%] m-auto">
             I’m focused on building responsive front-end web applications.
           </p>
-          <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
+          <div className="flex items-center justify-center gap-10 max-w-[330px] m-auto py-4">
             <a
-              href="https://www.linkedin.com/in/clint-briley-50056920a/"
+              href="https://www.linkedin.com/in/aymen-bachiri-9442b5287/"
               target="_blank"
               rel="noreferrer"
             >
@@ -30,7 +30,7 @@ const Main = () => {
               </div>
             </a>
             <a
-              href="https://github.com/fireclint"
+              href="https://github.com/Aymenbachiri?tab=repositories"
               target="_blank"
               rel="noreferrer"
             >
@@ -38,16 +38,15 @@ const Main = () => {
                 <FaGithub />
               </div>
             </a>
-            <Link href="/#contact">
-              <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                <AiOutlineMail />
-              </div>
-            </Link>
-            <Link href="/resume">
+            <a
+              href="https://drive.google.com/file/d/1uUcqiLd59J-sUwJhiQ8YWoAsNO2P2tlO/view"
+              target="_blank"
+              rel="noreferrer"
+            >
               <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                 <BsFillPersonLinesFill />
               </div>
-            </Link>
+            </a>
           </div>
         </div>
       </div>

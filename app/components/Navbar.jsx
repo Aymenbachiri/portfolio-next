@@ -5,7 +5,7 @@ import Link from "next/link";
 import React, { useEffect, useState } from "react";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
-import logo from "../assets/skills/nextjs.png";
+import logo from "../assets/logo.jpg";
 
 export default function Navbar() {
   const [nav, setNav] = useState(false);
@@ -52,8 +52,14 @@ export default function Navbar() {
       }
     >
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
-        <Link href="/#home">
-          <Image src={logo} alt="/" width={50} height={50} />
+        <Link className=" rounded-full" href="/#home">
+          <Image
+            className=" rounded-full"
+            src={logo}
+            alt="/"
+            width={50}
+            height={50}
+          />
         </Link>
         <div>
           <ul style={{ color: `${linkColor}` }} className="hidden md:flex">
@@ -97,7 +103,13 @@ export default function Navbar() {
           <div>
             <div className="flex w-full items-center justify-between">
               <Link href="/#home">
-                <Image src={logo} width={50} height={50} alt="logo" />
+                <Image
+                  className=" rounded-full"
+                  src={logo}
+                  width={50}
+                  height={50}
+                  alt="logo"
+                />
               </Link>
               <div
                 onClick={handleNav}
@@ -144,18 +156,12 @@ export default function Navbar() {
               <p className="uppercase tracking-widest text-[#5651e5]">
                 Let&#39;s Connect
               </p>
-              <div className="flex justify-between items-center my-4 w-full sm:w-[80%]">
+              <div className="flex justify-center gap-10 items-center my-4 w-full sm:w-[80%]">
                 <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
                   <FaLinkedin />
                 </div>
                 <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
                   <FaGithub />
-                </div>
-                <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-                  <FaLinkedin />
-                </div>
-                <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-                  <FaLinkedin />
                 </div>
               </div>
             </div>
